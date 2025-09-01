@@ -9,6 +9,7 @@ import PdfBlock from './components/PdfBlock';
 import MapSection from './components/MapSection';
 import Footer from './components/Footer';
 import FloatingCTAs from './components/FloatingCTAs';
+import ChatBot from './components/ChatBot';
 
 // Agent contact information - replace with real contact data
 const agentContact = {
@@ -150,6 +151,11 @@ function App() {
         translations={translations}
         agentContact={agentContact}
         onChatbotClick={handleChatbotClick}
+      />
+      
+      <ChatBot 
+        language={language}
+        translations={translations}
       />
     </div>
   );

@@ -1,4 +1,4 @@
-# Villa Cambrils - Premium Real Estate Landing Page
+# Villa Jardins de Cambrils - Premium Real Estate Landing Page
 
 Modern, responsive single-page application for a luxury villa in Jardins Vilafortuny, Cambrils. Built with React, Vite, and Tailwind CSS.
 
@@ -11,7 +11,8 @@ Modern, responsive single-page application for a luxury villa in Jardins Vilafor
 - **PDF Documentation**: Direct download of complete property documentation
 - **Location Advantages**: Detailed location benefits and connectivity
 - **Multi-language Support**: Spanish, Catalan, English, and Russian
-- **Floating CTAs**: WhatsApp, Telegram, and chatbot integration
+- **Floating CTAs**: WhatsApp, Telegram, and intelligent chatbot
+- **AI ChatBot**: Multi-language Q&A system with villa knowledge base
 - **SEO Optimized**: Meta tags, structured data, and social sharing
 - **Responsive Design**: Perfect on all devices
 
@@ -21,6 +22,19 @@ Modern, responsive single-page application for a luxury villa in Jardins Vilafor
 - **Vite**: Lightning-fast build tool
 - **Tailwind CSS**: Utility-first CSS framework
 - **JavaScript ES6+**: Modern JavaScript features
+
+## 🤖 AI ChatBot Features
+
+**Intelligent Virtual Assistant** with:
+- **Multi-language Support**: ES, EN, CA, RU
+- **Smart Q&A System**: Understands real estate questions
+- **Rich Knowledge Base**: Villa specs, location, pricing, technical details
+- **Pattern Recognition**: Advanced question matching algorithms
+- **Fallback System**: Auto-redirects to agent contacts (+34 677 743 005)
+- **Beautiful UI**: Modern chat interface with animations and formatting
+- **Extensible**: Ready for OpenAI GPT, Claude, or RAG integration
+
+See [CHATBOT.md](docs/CHATBOT.md) for detailed configuration.
 
 ## 📱 Mobile-First Design
 
@@ -61,20 +75,6 @@ npm run build
 npm run preview
 ```
 
-## 🚀 Deployment
-
-### Netlify (Recommended)
-
-1. Connect your GitHub repository to Netlify
-2. Set build command: `npm run build`
-3. Set publish directory: `dist`
-4. Deploy automatically on push to main
-
-### Vercel
-
-1. Import project from GitHub
-2. Framework preset: Vite
-3. Deploy with zero configuration
 
 ## 📁 Project Structure
 
@@ -129,4 +129,4 @@ public/
 
 ---
 
-**Built for Larisa Real Estate** - Premium properties on Costa Dorada
+**Built for Larisa Lazurenko Inmobiliaria en Cambrils, Costa Dorada** - Premium properties on Costa Dorada

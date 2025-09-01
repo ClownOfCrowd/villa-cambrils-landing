@@ -64,6 +64,13 @@ export const translations = {
       telegram: "Telegram",
       chatbot: "Chat"
     },
+    chatbot: {
+      title: "Asistente Virtual",
+      welcome: "¡Hola! Soy tu asistente virtual. Puedo ayudarte con cualquier pregunta sobre esta magnífica villa en Cambrils. ¿En qué puedo ayudarte?",
+      placeholder: "Escribe tu pregunta...",
+      toggle: "Abrir chat",
+      fallback: "Para información detallada, contacta por WhatsApp: +34 677 743 005 o email: info@inmolarisa.com"
+    },
     footer: {
       copyright: "© 2024 Todos los derechos reservados",
       privacy: "Política de privacidad",
@@ -134,6 +141,13 @@ export const translations = {
       whatsapp: "WhatsApp",
       telegram: "Telegram",
       chatbot: "Xat"
+    },
+    chatbot: {
+      title: "Assistent Virtual",
+      welcome: "Hola! Sóc el teu assistent virtual. Puc ajudar-te amb qualsevol pregunta sobre aquesta magnífica vil·la a Cambrils. En què puc ajudar-te?",
+      placeholder: "Escriu la teva pregunta...",
+      toggle: "Obrir xat",
+      fallback: "Per a informació detallada, contacta per WhatsApp: +34 677 743 005 o email: info@inmolarisa.com"
     },
     footer: {
       copyright: "© 2024 Tots els drets reservats",
@@ -206,6 +220,13 @@ export const translations = {
       telegram: "Telegram",
       chatbot: "Chat"
     },
+    chatbot: {
+      title: "Virtual Assistant",
+      welcome: "Hello! I'm your virtual assistant. I can help you with any questions about this magnificent villa in Cambrils. How can I help you?",
+      placeholder: "Type your question...",
+      toggle: "Open chat",
+      fallback: "For detailed information, contact us via WhatsApp: +34 677 743 005 or email: info@inmolarisa.com"
+    },
     footer: {
       copyright: "© 2024 All rights reserved",
       privacy: "Privacy policy",
@@ -276,6 +297,13 @@ export const translations = {
       whatsapp: "WhatsApp",
       telegram: "Telegram",
       chatbot: "Чат"
+    },
+    chatbot: {
+      title: "Виртуальный Ассистент",
+      welcome: "Привет! Я ваш виртуальный ассистент. Я могу помочь с любыми вопросами об этой великолепной вилле в Камбрилсе. Чем могу помочь?",
+      placeholder: "Напишите ваш вопрос...",
+      toggle: "Открыть чат",
+      fallback: "Для подробной информации свяжитесь с нами через WhatsApp: +34 677 743 005 или email: info@inmolarisa.com"
     },
     footer: {
       copyright: "© 2024 Все права защищены",
