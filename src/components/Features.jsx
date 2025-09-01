@@ -9,7 +9,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.area,
-      description: "Distribuidos en tres plantas más planta sótano"
+      description: translations.features.area_desc
     },
     {
       icon: (
@@ -18,7 +18,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.bedrooms,
-      description: "Habitaciones acogedoras con acceso a terraza"
+      description: translations.features.bedrooms_desc
     },
     {
       icon: (
@@ -27,7 +27,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.bathrooms,
-      description: "Baños completos con acabados de calidad"
+      description: translations.features.bathrooms_desc
     },
     {
       icon: (
@@ -36,7 +36,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.pool,
-      description: "Con maravilloso jardín y zona barbacoa"
+      description: translations.features.pool_desc
     },
     {
       icon: (
@@ -45,7 +45,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.garden,
-      description: "Sauna de madera para máximo relax"
+      description: translations.features.garden_desc
     },
     {
       icon: (
@@ -55,7 +55,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.garage,
-      description: "Más piso auxiliar con todas las comodidades"
+      description: translations.features.garage_desc
     },
     {
       icon: (
@@ -64,7 +64,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.cinema,
-      description: "Espacio diáfano para entretenimiento familiar"
+      description: translations.features.cinema_desc
     },
     {
       icon: (
@@ -73,7 +73,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.fireplace,
-      description: "Ambiente cálido y acogedor en sala de estar"
+      description: translations.features.fireplace_desc
     }
   ];
 
@@ -85,7 +85,7 @@ const Features = ({ translations }) => {
             {translations.features.title}
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Una residencia diseñada para el máximo confort y exclusividad en una de las zonas más privilegiadas de la Costa Dorada
+            {translations.features.description}
           </p>
         </div>
 

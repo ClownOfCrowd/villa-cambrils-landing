@@ -13,14 +13,23 @@ export const translations = {
     },
     features: {
       title: "Características destacadas",
+      description: "Una residencia diseñada para el máximo confort y exclusividad en una de las zonas más privilegiadas de la Costa Dorada",
       area: "805 m² construidos en parcela de 791 m²",
+      area_desc: "Distribuidos en tres plantas más planta sótano",
       bedrooms: "6 habitaciones acogedoras",
+      bedrooms_desc: "Habitaciones acogedoras con acceso a terraza",
       bathrooms: "7 baños completos",
+      bathrooms_desc: "Baños completos con acabados de calidad",
       pool: "Piscina privada con zona barbacoa",
+      pool_desc: "Con maravilloso jardín y zona barbacoa",
       garden: "Jardín con sauna de madera",
+      garden_desc: "Sauna de madera para máximo relax",
       garage: "Garaje para 3-4 coches",
+      garage_desc: "Más piso auxiliar con todas las comodidades",
       cinema: "Sala de cine y gimnasio",
-      fireplace: "Chimenea en sala de estar"
+      cinema_desc: "Espacio diáfano para entretenimiento familiar",
+      fireplace: "Chimenea en sala de estar",
+      fireplace_desc: "Ambiente cálido y acogedor en sala de estar"
     },
     gallery: {
       title: "Fotogalería",
@@ -93,14 +102,23 @@ export const translations = {
     },
     features: {
       title: "Característiques destacades",
+      description: "Una residència dissenyada per al màxim confort i exclusivitat en una de les zones més privilegiades de la Costa Daurada",
       area: "805 m² construïts en parcel·la de 791 m²",
+      area_desc: "Distribuïts en tres plantes més planta soterrani",
       bedrooms: "6 habitacions acollidores",
+      bedrooms_desc: "Habitacions acollidores amb accés a terrassa",
       bathrooms: "7 banys complets",
+      bathrooms_desc: "Banys complets amb acabats de qualitat",
       pool: "Piscina privada amb zona barbacoa",
+      pool_desc: "Amb meravellós jardí i zona barbacoa",
       garden: "Jardí amb sauna de fusta",
+      garden_desc: "Sauna de fusta per al màxim relax",
       garage: "Garatge per a 3-4 cotxes",
+      garage_desc: "Més pis auxiliar amb totes les comoditats",
       cinema: "Sala de cinema i gimnàs",
-      fireplace: "Xemeneia a la sala d'estar"
+      cinema_desc: "Espai diàfan per a entreteniment familiar",
+      fireplace: "Xemeneia a la sala d'estar",
+      fireplace_desc: "Ambient càlid i acollidor a la sala d'estar"
     },
     gallery: {
       title: "Fotogaleria",
@@ -173,14 +191,23 @@ export const translations = {
     },
     features: {
       title: "Key Features",
+      description: "A residence designed for maximum comfort and exclusivity in one of the most privileged areas of the Costa Dorada",
       area: "805 m² built on 791 m² plot",
+      area_desc: "Distributed over three floors plus basement",
       bedrooms: "6 cozy bedrooms",
+      bedrooms_desc: "Cozy bedrooms with terrace access",
       bathrooms: "7 full bathrooms",
+      bathrooms_desc: "Full bathrooms with quality finishes",
       pool: "Private pool with barbecue area",
+      pool_desc: "With wonderful garden and barbecue area",
       garden: "Garden with wooden sauna",
+      garden_desc: "Wooden sauna for maximum relaxation",
       garage: "Garage for 3-4 cars",
+      garage_desc: "Plus auxiliary apartment with all amenities",
       cinema: "Cinema room and gym",
-      fireplace: "Fireplace in living room"
+      cinema_desc: "Open space for family entertainment",
+      fireplace: "Fireplace in living room",
+      fireplace_desc: "Warm and cozy atmosphere in living room"
     },
     gallery: {
       title: "Photo gallery",
@@ -253,14 +280,23 @@ export const translations = {
     },
     features: {
       title: "Основные характеристики",
+      description: "Резиденция, спроектированная для максимального комфорта и эксклюзивности в одном из самых привилегированных районов Коста-Дорада",
       area: "805 м² застроенной площади на участке 791 м²",
+      area_desc: "Распределено на трех этажах плюс цокольный этаж",
       bedrooms: "6 уютных спален",
+      bedrooms_desc: "Уютные спальни с выходом на террасу",
       bathrooms: "7 полных ванных комнат",
+      bathrooms_desc: "Полные ванные комнаты с качественной отделкой",
       pool: "Частный бассейн с зоной барбекю",
+      pool_desc: "С замечательным садом и зоной барбекю",
       garden: "Сад с деревянной сауной",
+      garden_desc: "Деревянная сауна для максимального релакса",
       garage: "Гараж на 3-4 автомобиля",
+      garage_desc: "Плюс вспомогательная квартира со всеми удобствами",
       cinema: "Кинозал и спортзал",
-      fireplace: "Камин в гостиной"
+      cinema_desc: "Открытое пространство для семейных развлечений",
+      fireplace: "Камин в гостиной",
+      fireplace_desc: "Теплая и уютная атмосфера в гостиной"
     },
     gallery: {
       title: "Фотогалерея",
