@@ -19,18 +19,18 @@ const Footer = ({ translations }) => {
               </div>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Mansión exclusiva en Jardins Vilafortuny, Cambrils. 805 m² de lujo mediterráneo con vistas privilegiadas y acabados de primera calidad.
+              {translations.footer.villa_description}
             </p>
             <div className="space-y-2 text-gray-300">
-              <p><strong>Referencia:</strong> 168010</p>
-              <p><strong>Precio:</strong> 1.499.990 €</p>
-              <p><strong>Zona:</strong> Jardins Vilafortuny, Cambrils</p>
+              <p><strong>{translations.footer.reference}</strong></p>
+              <p><strong>{translations.footer.price}</strong></p>
+              <p><strong>{translations.footer.zone}</strong></p>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Enlaces rápidos</h3>
+            <h3 className="text-lg font-bold mb-4">{translations.footer.quick_links}</h3>
             <ul className="space-y-2">
               <li>
                 <button 
@@ -69,7 +69,7 @@ const Footer = ({ translations }) => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Contacto</h3>
+            <h3 className="text-lg font-bold mb-4">{translations.nav.contact}</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <svg className="w-5 h-5 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

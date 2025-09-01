@@ -112,66 +112,48 @@ const Features = ({ translations }) => {
         <div className="mt-16 bg-gray-50 rounded-lg p-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Distribución por plantas</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{translations.features.layout_title}</h3>
               <ul className="space-y-3">
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2"></div>
                   <div>
-                    <span className="text-gray-900 font-semibold">Planta Sótano:</span>
-                    <span className="text-gray-700"> Garaje 3-4 coches, piso auxiliar completo, almacén</span>
+                    <span className="text-gray-900 font-semibold">{translations.features.basement}:</span>
+                    <span className="text-gray-700"> {translations.features.basement_desc}</span>
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2"></div>
                   <div>
-                    <span className="text-gray-900 font-semibold">Planta Baja:</span>
-                    <span className="text-gray-700"> Recibidor, salón comedor, sala con chimenea, dormitorio suite, cocina independiente</span>
+                    <span className="text-gray-900 font-semibold">{translations.features.ground_floor}:</span>
+                    <span className="text-gray-700"> {translations.features.ground_floor_desc}</span>
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2"></div>
                   <div>
-                    <span className="text-gray-900 font-semibold">Primera Planta:</span>
-                    <span className="text-gray-700"> 4 habitaciones (3 dobles, 2 suite), dormitorio principal con vestidor</span>
+                    <span className="text-gray-900 font-semibold">{translations.features.first_floor}:</span>
+                    <span className="text-gray-700"> {translations.features.first_floor_desc}</span>
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2"></div>
                   <div>
-                    <span className="text-gray-900 font-semibold">Segunda Planta:</span>
-                    <span className="text-gray-700"> Gimnasio, sala de cine, despacho, terraza con vistas despejadas</span>
+                    <span className="text-gray-900 font-semibold">{translations.features.second_floor}:</span>
+                    <span className="text-gray-700"> {translations.features.second_floor_desc}</span>
                   </div>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Características exclusivas</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{translations.features.exclusive_title}</h3>
               <ul className="space-y-3">
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Reformada con materiales de alta calidad</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Chimenea en sala de estar</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Sauna de madera en jardín</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Zona de barbacoa exterior</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Cuarto de plancha y lavadero</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Acceso directo al jardín desde cocina</span>
-                </li>
+                {translations.features.exclusive_items.map((item, index) => (
+                  <li key={index} className="flex items-center space-x-3">
+                    <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
+                    <span className="text-gray-700">{item}</span>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

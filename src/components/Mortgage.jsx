@@ -237,7 +237,7 @@ const Mortgage = ({ translations }) => {
 
                 <div className="bg-yellow-50 p-4 rounded-lg mt-6">
                   <p className="text-sm text-gray-600 text-center">
-                    Tipo de interés aplicado: {results.interestRate.toFixed(2)}%
+                    {translations.mortgage.applied_rate}: {results.interestRate.toFixed(2)}%
                   </p>
                 </div>
               </div>

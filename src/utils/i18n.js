@@ -1,7 +1,7 @@
 export const translations = {
   es: {
     title: "Mansión de Alta Standing en Jardines de Vilafortuny, Cambrils",
-    lead: "805 m², 6 habitaciones, 7 baños, piscina, sauna y jardín — 1.499.990 €",
+    lead: "805 m², 6 habitaciones, 7 baños, piscina, sauna y jardín",
     cta_primary: "Reservar visita",
     hero_subtitle: "Exclusiva mansión de 1993 reformada con materiales de alta calidad",
     nav: {
@@ -29,7 +29,25 @@ export const translations = {
       cinema: "Sala de cine y gimnasio",
       cinema_desc: "Espacio diáfano para entretenimiento familiar",
       fireplace: "Chimenea en sala de estar",
-      fireplace_desc: "Ambiente cálido y acogedor en sala de estar"
+      fireplace_desc: "Ambiente cálido y acogedor en sala de estar",
+      layout_title: "Distribución por plantas",
+      basement: "Planta Sótano",
+      basement_desc: "Garaje 3-4 coches, piso auxiliar completo, almacén",
+      ground_floor: "Planta Baja",
+      ground_floor_desc: "Recibidor, salón comedor, sala con chimenea, dormitorio suite, cocina independiente",
+      first_floor: "Primera Planta",
+      first_floor_desc: "4 habitaciones (3 dobles, 2 suite), dormitorio principal con vestidor",
+      second_floor: "Segunda Planta",
+      second_floor_desc: "Gimnasio, sala de cine, despacho, terraza con vistas despejadas",
+      exclusive_title: "Características exclusivas",
+      exclusive_items: [
+        "Reformada con materiales de alta calidad",
+        "Chimenea en sala de estar",
+        "Sauna de madera en jardín",
+        "Zona de barbacoa exterior",
+        "Cuarto de plancha y lavadero",
+        "Acceso directo al jardín desde cocina"
+      ]
     },
     gallery: {
       title: "Fotogalería",
@@ -51,7 +69,8 @@ export const translations = {
       loan_amount: "Importe hipoteca",
       monthly_payment: "Cuota mensual",
       total_payment: "Pago total",
-      estimated_costs: "Gastos estimados"
+      estimated_costs: "Gastos estimados",
+      applied_rate: "Tipo de interés aplicado"
     },
     location: {
       title: "Ubicación privilegiada",
@@ -66,7 +85,16 @@ export const translations = {
     pdf: {
       title: "Documentación",
       description: "Descarga la ficha técnica completa",
-      download: "Descargar PDF"
+      download: "Descargar PDF",
+      villa_title: "Documentación Villa",
+      tech_sheet: "Ficha técnica completa con planos y características",
+      download_complete: "Descargar Documentación Completa",
+      detailed_docs: "Documentación detallada",
+      detailed_info: "Información completa de la vivienda",
+      tech_specs: "Características técnicas",
+      tech_specs_desc: "Materiales, instalaciones y acabados",
+      legal_status: "Situación legal",
+      legal_status_desc: "Cédula de habitabilidad y documentación"
     },
     contact: {
       title: "¿Interesado?",
@@ -85,12 +113,38 @@ export const translations = {
     footer: {
       copyright: "© 2024 Todos los derechos reservados",
       privacy: "Política de privacidad",
-      terms: "Términos de uso"
+      terms: "Términos de uso",
+      villa_description: "Mansión exclusiva en Jardins Vilafortuny, Cambrils. 805 m² de lujo mediterráneo con vistas privilegiadas y acabados de primera calidad.",
+      reference: "Referencia: 168010",
+      price: "Precio: 1.499.990 €",
+      zone: "Zona: Jardins Vilafortuny, Cambrils",
+      quick_links: "Enlaces rápidos",
+      portaventura_world: "PortAventura World",
+      portaventura_desc: "15 minutos en coche al famoso parque de atracciones",
+      location_advantages: {
+        beach_distance: "1.300 metros de las playas",
+        beach_desc: "Acceso directo a las mejores playas de la Costa Dorada",
+        communication: "Excelente comunicación",
+        communication_desc: "Muy bien comunicada con autovía y autopista",
+        portaventura: "15 min a PortAventura",
+        portaventura_desc: "Fácil acceso al famoso parque temático",
+        vilafortuny: "Jardines de Vilafortuny",
+        vilafortuny_desc: "Zona exclusiva y tranquila con encanto único",
+        construction: "Construcción de 1993",
+        construction_desc: "Mansión de alta standing reformada con materiales de calidad",
+        schools: "Escuelas cercanas",
+        schools_desc: "Centros educativos de calidad en la zona"
+      },
+      exceptional_connectivity: "Conectividad excepcional",
+      barcelona_ave: "Barcelona (AVE)",
+      madrid_ave: "Madrid (AVE)",
+      france_highway: "Francia (autopista)",
+      why_choose: "Por qué elegir esta ubicación"
     }
   },
   ca: {
     title: "Mansió d'Alt Standing a Jardins de Vilafortuny, Cambrils",
-    lead: "805 m², 6 habitacions, 7 banys, piscina, sauna i jardí — 1.499.990 €",
+    lead: "805 m², 6 habitacions, 7 banys, piscina, sauna i jardí",
     cta_primary: "Reservar visita",
     hero_subtitle: "Exclusiva mansió de 1993 reformada amb materials d'alta qualitat",
     nav: {
@@ -118,7 +172,25 @@ export const translations = {
       cinema: "Sala de cinema i gimnàs",
       cinema_desc: "Espai diàfan per a entreteniment familiar",
       fireplace: "Xemeneia a la sala d'estar",
-      fireplace_desc: "Ambient càlid i acollidor a la sala d'estar"
+      fireplace_desc: "Ambient càlid i acollidor a la sala d'estar",
+      layout_title: "Distribució per plantes",
+      basement: "Planta Soterrani",
+      basement_desc: "Garatge 3-4 cotxes, pis auxiliar complet, magatzem",
+      ground_floor: "Planta Baixa",
+      ground_floor_desc: "Rebedor, saló menjador, sala amb xemeneia, dormitori suite, cuina independent",
+      first_floor: "Primera Planta",
+      first_floor_desc: "4 habitacions (3 dobles, 2 suite), dormitori principal amb vestidor",
+      second_floor: "Segona Planta",
+      second_floor_desc: "Gimnàs, sala de cinema, despatx, terrassa amb vistes obertes",
+      exclusive_title: "Característiques exclusives",
+      exclusive_items: [
+        "Reformada amb materials d'alta qualitat",
+        "Xemeneia a la sala d'estar",
+        "Sauna de fusta al jardí",
+        "Zona de barbacoa exterior",
+        "Sala de planxa i safareig",
+        "Accés directe al jardí des de la cuina"
+      ]
     },
     gallery: {
       title: "Fotogaleria",
@@ -140,7 +212,8 @@ export const translations = {
       loan_amount: "Import hipoteca",
       monthly_payment: "Quota mensual",
       total_payment: "Pagament total",
-      estimated_costs: "Despeses estimades"
+      estimated_costs: "Despeses estimades",
+      applied_rate: "Tipus d'interès aplicat"
     },
     location: {
       title: "Ubicació privilegiada",
@@ -174,12 +247,38 @@ export const translations = {
     footer: {
       copyright: "© 2024 Tots els drets reservats",
       privacy: "Política de privacitat",
-      terms: "Condicions d'ús"
+      terms: "Condicions d'ús",
+      villa_description: "Mansió exclusiva a Jardins Vilafortuny, Cambrils. 805 m² de luxe mediterrani amb vistes privilegiades i acabats de primera qualitat.",
+      reference: "Referència: 168010",
+      price: "Preu: 1.499.990 €",
+      zone: "Zona: Jardins Vilafortuny, Cambrils",
+      quick_links: "Enllaços ràpids",
+      portaventura_world: "PortAventura World",
+      portaventura_desc: "15 minuts en cotxe al famós parc d'atraccions",
+      location_advantages: {
+        beach_distance: "1.300 metres de les platges",
+        beach_desc: "Accés directe a les millors platges de la Costa Daurada",
+        communication: "Excel·lent comunicació",
+        communication_desc: "Molt ben comunicada amb autovia i autopista",
+        portaventura: "15 min a PortAventura",
+        portaventura_desc: "Fàcil accés al famós parc temàtic",
+        vilafortuny: "Jardins de Vilafortuny",
+        vilafortuny_desc: "Zona exclusiva i tranquil·la amb encant únic",
+        construction: "Construcció del 1993",
+        construction_desc: "Mansió d'alt standing reformada amb materials de qualitat",
+        schools: "Escoles properes",
+        schools_desc: "Centres educatius de qualitat a la zona"
+      },
+      exceptional_connectivity: "Connectivitat excepcional",
+      barcelona_ave: "Barcelona (AVE)",
+      madrid_ave: "Madrid (AVE)",
+      france_highway: "França (autopista)",
+      why_choose: "Per què triar aquesta ubicació"
     }
   },
   en: {
     title: "High Standing Mansion in Jardines de Vilafortuny, Cambrils",
-    lead: "805 m², 6 bedrooms, 7 bathrooms, pool, sauna & garden — €1,499,990",
+    lead: "805 m², 6 bedrooms, 7 bathrooms, pool, sauna & garden",
     cta_primary: "Schedule a viewing",
     hero_subtitle: "Exclusive 1993 mansion renovated with high quality materials",
     nav: {
@@ -207,7 +306,25 @@ export const translations = {
       cinema: "Cinema room and gym",
       cinema_desc: "Open space for family entertainment",
       fireplace: "Fireplace in living room",
-      fireplace_desc: "Warm and cozy atmosphere in living room"
+      fireplace_desc: "Warm and cozy atmosphere in living room",
+      layout_title: "Floor distribution",
+      basement: "Basement Floor",
+      basement_desc: "Garage 3-4 cars, complete auxiliary apartment, storage",
+      ground_floor: "Ground Floor",
+      ground_floor_desc: "Hall, living-dining room, sitting room with fireplace, en-suite bedroom, independent kitchen",
+      first_floor: "First Floor",
+      first_floor_desc: "4 bedrooms (3 doubles, 2 en-suite), master bedroom with dressing room",
+      second_floor: "Second Floor",
+      second_floor_desc: "Gym, cinema room, office, terrace with panoramic views",
+      exclusive_title: "Exclusive features",
+      exclusive_items: [
+        "Renovated with high quality materials",
+        "Fireplace in living room",
+        "Wooden sauna in garden",
+        "Outdoor barbecue area",
+        "Laundry and ironing room",
+        "Direct garden access from kitchen"
+      ]
     },
     gallery: {
       title: "Photo gallery",
@@ -229,7 +346,8 @@ export const translations = {
       loan_amount: "Loan amount",
       monthly_payment: "Monthly payment",
       total_payment: "Total payment",
-      estimated_costs: "Estimated costs"
+      estimated_costs: "Estimated costs",
+      applied_rate: "Applied interest rate"
     },
     location: {
       title: "Prime location",
@@ -244,7 +362,16 @@ export const translations = {
     pdf: {
       title: "Documentation",
       description: "Download the complete technical sheet",
-      download: "Download PDF"
+      download: "Download PDF",
+      villa_title: "Villa Documentation",
+      tech_sheet: "Complete technical sheet with plans and characteristics",
+      download_complete: "Download Complete Documentation",
+      detailed_docs: "Detailed documentation",
+      detailed_info: "Complete property information",
+      tech_specs: "Technical specifications",
+      tech_specs_desc: "Materials, installations and finishes",
+      legal_status: "Legal status",
+      legal_status_desc: "Habitability certificate and documentation"
     },
     contact: {
       title: "Interested?",
@@ -263,12 +390,38 @@ export const translations = {
     footer: {
       copyright: "© 2024 All rights reserved",
       privacy: "Privacy policy",
-      terms: "Terms of use"
+      terms: "Terms of use",
+      villa_description: "Exclusive mansion in Jardins Vilafortuny, Cambrils. 805 m² of Mediterranean luxury with privileged views and top quality finishes.",
+      reference: "Reference: 168010",
+      price: "Price: €1,499,990",
+      zone: "Zone: Jardins Vilafortuny, Cambrils",
+      quick_links: "Quick links",
+      portaventura_world: "PortAventura World",
+      portaventura_desc: "15 minutes drive to the famous theme park",
+      location_advantages: {
+        beach_distance: "1,300 meters from beaches",
+        beach_desc: "Direct access to the best beaches of Costa Dorada",
+        communication: "Excellent connectivity",
+        communication_desc: "Very well connected to highway and motorway",
+        portaventura: "15 min to PortAventura",
+        portaventura_desc: "Easy access to the famous theme park",
+        vilafortuny: "Jardins Vilafortuny",
+        vilafortuny_desc: "Quiet and exclusive area with unique charm",
+        construction: "Built in 1993",
+        construction_desc: "High standing mansion renovated with quality materials",
+        schools: "Nearby schools",
+        schools_desc: "Quality educational centers in the area"
+      },
+      exceptional_connectivity: "Exceptional connectivity",
+      barcelona_ave: "Barcelona (High Speed Train)",
+      madrid_ave: "Madrid (High Speed Train)",
+      france_highway: "France (highway)",
+      why_choose: "Why choose this location"
     }
   },
   ru: {
     title: "Особняк высокого класса в Жардинс де Вилафортуни, Камбрилс",
-    lead: "805 м², 6 спален, 7 ванных, бассейн, сауна и сад — 1.499.990 €",
+    lead: "805 м², 6 спален, 7 ванных, бассейн, сауна и сад",
     cta_primary: "Записаться на просмотр",
     hero_subtitle: "Эксклюзивный особняк 1993 года, отремонтированный высококачественными материалами",
     nav: {
@@ -296,7 +449,25 @@ export const translations = {
       cinema: "Кинозал и спортзал",
       cinema_desc: "Открытое пространство для семейных развлечений",
       fireplace: "Камин в гостиной",
-      fireplace_desc: "Теплая и уютная атмосфера в гостиной"
+      fireplace_desc: "Теплая и уютная атмосфера в гостиной",
+      layout_title: "Планировка по этажам",
+      basement: "Цокольный этаж",
+      basement_desc: "Гараж на 3-4 машины, полноценная вспомогательная квартира, кладовая",
+      ground_floor: "Первый этаж",
+      ground_floor_desc: "Прихожая, гостиная-столовая, зал с камином, спальня с санузлом, отдельная кухня",
+      first_floor: "Второй этаж",
+      first_floor_desc: "4 комнаты (3 двуспальные, 2 с санузлом), главная спальня с гардеробной",
+      second_floor: "Третий этаж",
+      second_floor_desc: "Спортзал, кинозал, кабинет, терраса с панорамными видами",
+      exclusive_title: "Эксклюзивные особенности",
+      exclusive_items: [
+        "Отремонтирована с использованием материалов высокого качества",
+        "Камин в гостиной",
+        "Деревянная сауна в саду",
+        "Открытая зона барбекю",
+        "Прачечная и гладильная",
+        "Прямой доступ в сад из кухни"
+      ]
     },
     gallery: {
       title: "Фотогалерея",
@@ -318,7 +489,8 @@ export const translations = {
       loan_amount: "Сумма кредита",
       monthly_payment: "Ежемесячный платеж",
       total_payment: "Общая выплата",
-      estimated_costs: "Расчетные расходы"
+      estimated_costs: "Расчетные расходы",
+      applied_rate: "Применяемая процентная ставка"
     },
     location: {
       title: "Превосходное расположение",
@@ -333,7 +505,16 @@ export const translations = {
     pdf: {
       title: "Документация",
       description: "Скачать полный технический паспорт",
-      download: "Скачать PDF"
+      download: "Скачать PDF",
+      villa_title: "Документация на виллу",
+      tech_sheet: "Полная техническая справка с планами и характеристиками",
+      download_complete: "Скачать полную документацию",
+      detailed_docs: "Подробная документация",
+      detailed_info: "Полная информация о недвижимости",
+      tech_specs: "Технические характеристики",
+      tech_specs_desc: "Материалы, системы и отделка",
+      legal_status: "Правовое положение",
+      legal_status_desc: "Справка о пригодности для проживания и документация"
     },
     contact: {
       title: "Заинтересованы?",
@@ -352,7 +533,33 @@ export const translations = {
     footer: {
       copyright: "© 2024 Все права защищены",
       privacy: "Политика конфиденциальности",
-      terms: "Условия использования"
+      terms: "Условия использования",
+      villa_description: "Эксклюзивный особняк в Жардинс Вилафортуни, Камбрильс. 805 м² средиземноморской роскоши с привилегированными видами и отделкой высшего класса.",
+      reference: "Номер: 168010",
+      price: "Цена: 1.499.990 €",
+      zone: "Зона: Жардинс Вилафортуни, Камбрильс",
+      quick_links: "Быстрые ссылки",
+      portaventura_world: "PortAventura World",
+      portaventura_desc: "15 минут на машине до знаменитого парка развлечений",
+      location_advantages: {
+        beach_distance: "1.300 метров до пляжей",
+        beach_desc: "Прямой доступ к лучшим пляжам Коста-Дорада",
+        communication: "Отличная связь",
+        communication_desc: "Отличное сообщение с автомагистралями",
+        portaventura: "15 мин до PortAventura",
+        portaventura_desc: "Легкий доступ к знаменитому тематическому парку",
+        vilafortuny: "Жардинс Вилафортуни",
+        vilafortuny_desc: "Эксклюзивная и тихая зона с уникальным обаянием",
+        construction: "Постройка 1993 года",
+        construction_desc: "Особняк высокого класса, отремонтированный качественными материалами",
+        schools: "Близкие школы",
+        schools_desc: "Качественные образовательные центры в районе"
+      },
+      exceptional_connectivity: "Исключительная связанность",
+      barcelona_ave: "Барселона (скоростной поезд)",
+      madrid_ave: "Мадрид (скоростной поезд)",
+      france_highway: "Франция (автомагистраль)",
+      why_choose: "Почему стоит выбрать это место"
     }
   }
 };

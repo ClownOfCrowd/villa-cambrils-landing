@@ -53,8 +53,8 @@ const PdfBlock = ({ translations }) => {
                   <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-2">Documentación Villa</h3>
-              <p className="text-gray-600 mb-4">Ficha técnica completa con planos y características</p>
+              <h3 className="text-2xl font-bold text-gray-800 mb-2">{translations.pdf.villa_title}</h3>
+              <p className="text-gray-600 mb-4">{translations.pdf.tech_sheet}</p>
               <div className="flex items-center justify-center space-x-4 text-sm text-gray-500">
                 <span className="flex items-center">
                   <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -87,7 +87,7 @@ const PdfBlock = ({ translations }) => {
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
-                    <span>Descargar Documentación Completa</span>
+                    <span>{translations.pdf.download_complete}</span>
                   </>
                 )}
               </button>
@@ -105,8 +105,8 @@ const PdfBlock = ({ translations }) => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
             </div>
-            <h3 className="font-semibold text-gray-900 mb-2">Documentación detallada</h3>
-            <p className="text-sm text-gray-600">Información completa de la vivienda</p>
+            <h3 className="font-semibold text-gray-900 mb-2">{translations.pdf.detailed_docs}</h3>
+            <p className="text-sm text-gray-600">{translations.pdf.detailed_info}</p>
           </div>
 
           <div className="text-center p-6 bg-white rounded-lg shadow">
@@ -115,8 +115,8 @@ const PdfBlock = ({ translations }) => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
               </svg>
             </div>
-            <h3 className="font-semibold text-gray-900 mb-2">Características técnicas</h3>
-            <p className="text-sm text-gray-600">Materiales, instalaciones y acabados</p>
+            <h3 className="font-semibold text-gray-900 mb-2">{translations.pdf.tech_specs}</h3>
+            <p className="text-sm text-gray-600">{translations.pdf.tech_specs_desc}</p>
           </div>
 
           <div className="text-center p-6 bg-white rounded-lg shadow">
@@ -126,8 +126,8 @@ const PdfBlock = ({ translations }) => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
             </div>
-            <h3 className="font-semibold text-gray-900 mb-2">Situación legal</h3>
-            <p className="text-sm text-gray-600">Cédula de habitabilidad y documentación</p>
+            <h3 className="font-semibold text-gray-900 mb-2">{translations.pdf.legal_status}</h3>
+            <p className="text-sm text-gray-600">{translations.pdf.legal_status_desc}</p>
           </div>
         </div>
       </div>
