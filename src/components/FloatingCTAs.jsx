@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FloatingCTAs = ({ translations, agentContact, onChatbotClick }) => {
+const FloatingCTAs = ({ translations, agentContact }) => {
   const [showTooltips, setShowTooltips] = useState({});
 
   const showTooltip = (key) => {
@@ -64,31 +64,6 @@ const FloatingCTAs = ({ translations, agentContact, onChatbotClick }) => {
             <div className="absolute left-16 top-1/2 transform -translate-y-1/2 bg-black text-white px-3 py-2 rounded-lg text-sm whitespace-nowrap">
               {translations.contact.telegram}
               <div className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-1 w-0 h-0 border-t-4 border-b-4 border-r-4 border-transparent border-r-black"></div>
-            </div>
-          )}
-        </div>
-      </div>
-
-      {/* Right side CTA - Chatbot */}
-      <div className="fixed bottom-6 right-6 z-40">
-        <div className="relative">
-          <button
-            onClick={onChatbotClick}
-            className="flex items-center justify-center w-14 h-14 bg-yellow-500 hover:bg-yellow-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-yellow-300"
-            aria-label={translations.contact.chatbot}
-            onMouseEnter={() => showTooltip('chatbot')}
-            onMouseLeave={() => hideTooltip('chatbot')}
-            onFocus={() => showTooltip('chatbot')}
-            onBlur={() => hideTooltip('chatbot')}
-          >
-            <svg className="w-7 h-7 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-            </svg>
-          </button>
-          {showTooltips.chatbot && (
-            <div className="absolute right-16 top-1/2 transform -translate-y-1/2 bg-black text-white px-3 py-2 rounded-lg text-sm whitespace-nowrap">
-              {translations.contact.chatbot}
-              <div className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-1 w-0 h-0 border-t-4 border-b-4 border-l-4 border-transparent border-l-black"></div>
             </div>
           )}
         </div>

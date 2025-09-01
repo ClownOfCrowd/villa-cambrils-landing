@@ -20,7 +20,6 @@ const agentContact = {
 
 function App() {
   const [currentLang, setCurrentLang] = useState('es');
-  const [showChatbot, setShowChatbot] = useState(false);
   const translations = useTranslation(currentLang);
 
   // Update document language and meta tags when language changes
@@ -150,11 +149,10 @@ function App() {
       <FloatingCTAs 
         translations={translations}
         agentContact={agentContact}
-        onChatbotClick={handleChatbotClick}
       />
       
       <ChatBot 
-        language={language}
+        language={currentLang}
         translations={translations}
       />
     </div>

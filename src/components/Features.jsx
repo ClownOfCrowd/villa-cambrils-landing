@@ -9,7 +9,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.area,
-      description: "Amplios espacios distribuidos en 3 plantas"
+      description: "Distribuidos en tres plantas más planta sótano"
     },
     {
       icon: (
@@ -18,7 +18,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.bedrooms,
-      description: "Todas con armarios empotrados y baño en suite"
+      description: "Habitaciones acogedoras con acceso a terraza"
     },
     {
       icon: (
@@ -27,7 +27,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.bathrooms,
-      description: "Equipados con materiales de primera calidad"
+      description: "Baños completos con acabados de calidad"
     },
     {
       icon: (
@@ -36,7 +36,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.pool,
-      description: "Piscina climatizada con sistema de sal"
+      description: "Con maravilloso jardín y zona barbacoa"
     },
     {
       icon: (
@@ -45,7 +45,7 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.garden,
-      description: "Diseño paisajístico con especies autóctonas"
+      description: "Sauna de madera para máximo relax"
     },
     {
       icon: (
@@ -55,7 +55,25 @@ const Features = ({ translations }) => {
         </svg>
       ),
       title: translations.features.garage,
-      description: "Con acceso directo a la vivienda"
+      description: "Más piso auxiliar con todas las comodidades"
+    },
+    {
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2M7 4v16M17 4v16m0-16H7" />
+        </svg>
+      ),
+      title: translations.features.cinema,
+      description: "Espacio diáfano para entretenimiento familiar"
+    },
+    {
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707" />
+        </svg>
+      ),
+      title: translations.features.fireplace,
+      description: "Ambiente cálido y acogedor en sala de estar"
     }
   ];
 
@@ -94,53 +112,65 @@ const Features = ({ translations }) => {
         <div className="mt-16 bg-gray-50 rounded-lg p-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Características técnicas</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Distribución por plantas</h3>
               <ul className="space-y-3">
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Calefacción por suelo radiante</span>
+                <li className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2"></div>
+                  <div>
+                    <span className="text-gray-900 font-semibold">Planta Sótano:</span>
+                    <span className="text-gray-700"> Garaje 3-4 coches, piso auxiliar completo, almacén</span>
+                  </div>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Aire acondicionado por conductos</span>
+                <li className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2"></div>
+                  <div>
+                    <span className="text-gray-900 font-semibold">Planta Baja:</span>
+                    <span className="text-gray-700"> Recibidor, salón comedor, sala con chimenea, dormitorio suite, cocina independiente</span>
+                  </div>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Domótica integrada</span>
+                <li className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2"></div>
+                  <div>
+                    <span className="text-gray-900 font-semibold">Primera Planta:</span>
+                    <span className="text-gray-700"> 4 habitaciones (3 dobles, 2 suite), dormitorio principal con vestidor</span>
+                  </div>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Sistema de seguridad</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Paneles solares</span>
+                <li className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2"></div>
+                  <div>
+                    <span className="text-gray-900 font-semibold">Segunda Planta:</span>
+                    <span className="text-gray-700"> Gimnasio, sala de cine, despacho, terraza con vistas despejadas</span>
+                  </div>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Acabados premium</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Características exclusivas</h3>
               <ul className="space-y-3">
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Suelos de mármol natural</span>
+                  <span className="text-gray-700">Reformada con materiales de alta calidad</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Cocina equipada Bulthaup</span>
+                  <span className="text-gray-700">Chimenea en sala de estar</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Carpintería exterior de aluminio</span>
+                  <span className="text-gray-700">Sauna de madera en jardín</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Cristales dobles con cámara</span>
+                  <span className="text-gray-700">Zona de barbacoa exterior</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                  <span className="text-gray-700">Iluminación LED integrada</span>
+                  <span className="text-gray-700">Cuarto de plancha y lavadero</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
+                  <span className="text-gray-700">Acceso directo al jardín desde cocina</span>
                 </li>
               </ul>
             </div>

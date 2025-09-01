@@ -4,26 +4,26 @@ export const villaKnowledgeBase = {
     property: {
       price: "1.499.990 €",
       size: "805 m²",
-      bedrooms: "6 dormitorios",
-      bathrooms: "5 baños",
+      bedrooms: "6 habitaciones",
+      bathrooms: "7 baños",
       features: [
-        "Piscina privada con zona de relax",
-        "Jardín mediterráneo de 400m²", 
-        "Aire acondicionado central",
-        "Calefacción por suelo radiante",
-        "Garaje para 3 vehículos",
-        "Terraza panorámica de 150m²",
-        "Cocina americana totalmente equipada",
-        "Sistema de domótica integrado",
-        "Alarma y videovigilancia"
+        "Piscina privada en jardín",
+        "Zona de barbacoa",
+        "Sauna de madera",
+        "Garaje para 3-4 coches",
+        "Gimnasio y sala de cine",
+        "Chimenea en sala de estar",
+        "Cocina independiente totalmente equipada",
+        "Cuarto de plancha y lavadero",
+        "Terraza con vistas despejadas"
       ],
-      location: "Jardins Vilafortuny, Cambrils",
-      beach_distance: "1,4 km a la playa (5 minutos en coche, 20 minutos andando)",
+      location: "Jardines de Vilafortuny, Cambrils",
+      beach_distance: "1.300 metros de las playas",
       portaventura: "15 minutos en coche a PortAventura",
-      year_built: "2020",
-      energy_rating: "Certificación energética A",
-      orientation: "Sur-Este (máxima luminosidad)",
-      plot_size: "1.200 m² de parcela"
+      year_built: "1993 (reformada con materiales de alta calidad)",
+      energy_rating: "Mansión de alta standing",
+      orientation: "Excelente comunicación con autovía y autopista",
+      plot_size: "791 m² de parcela"
     },
     advantages: [
       "Ubicación privilegiada en zona residencial tranquila",
@@ -36,12 +36,12 @@ export const villaKnowledgeBase = {
       "Campo de golf a 10 minutos"
     ],
     technical_specs: {
-      construction: "Estructura de hormigón armado",
-      roof: "Cubierta plana transitable",
-      windows: "Ventanas de PVC con doble acristalamiento",
-      flooring: "Gres porcelánico y parquet en dormitorios",
-      insulation: "Aislamiento térmico y acústico superior",
-      utilities: "Instalaciones de fontanería y electricidad certificadas"
+      construction: "Mansión de alta standing reformada con materiales de alta calidad",
+      layout: "Distribuida en tres plantas más planta sótano",
+      basement: "Garaje para 3-4 coches, piso auxiliar (sala, cocina, dormitorio, baño), almacén",
+      ground_floor: "Amplio recibidor, salón comedor, sala de estar con chimenea, dormitorio suite, aseo, cocina independiente, cuarto de plancha",
+      first_floor: "4 habitaciones: tres dormitorios dobles (dos suite), dormitorio principal con vestidor y baño completo",
+      second_floor: "Espacio diáfano: gimnasio, sala de cine, despacho, baño, terraza con vistas despejadas"
     },
     legal_info: {
       license: "Licencia de primera ocupación vigente",
@@ -55,25 +55,25 @@ export const villaKnowledgeBase = {
       price: "€1,499,990",
       size: "805 m²",
       bedrooms: "6 bedrooms",
-      bathrooms: "5 bathrooms",
+      bathrooms: "7 bathrooms",
       features: [
-        "Private pool with relaxation area",
-        "400m² Mediterranean garden",
-        "Central air conditioning",
-        "Underfloor heating",
-        "3-car garage",
-        "150m² panoramic terrace",
-        "Fully equipped open-plan kitchen",
-        "Integrated home automation system",
-        "Security alarm and video surveillance"
+        "Private pool in garden",
+        "Barbecue area",
+        "Wooden sauna",
+        "Garage for 3-4 cars",
+        "Gym and cinema room",
+        "Fireplace in living room",
+        "Fully equipped independent kitchen",
+        "Laundry and ironing room",
+        "Terrace with unobstructed views"
       ],
-      location: "Jardins Vilafortuny, Cambrils",
-      beach_distance: "1.4 km to beach (5 minutes by car, 20 minutes walking)",
+      location: "Jardines de Vilafortuny, Cambrils",
+      beach_distance: "1,300 meters from beaches",
       portaventura: "15 minutes by car to PortAventura",
-      year_built: "2020",
-      energy_rating: "Energy rating A",
-      orientation: "South-East (maximum brightness)",
-      plot_size: "1,200 m² plot"
+      year_built: "1993 (renovated with high quality materials)",
+      energy_rating: "High standing mansion",
+      orientation: "Excellent highway and motorway connections",
+      plot_size: "791 m² plot"
     },
     advantages: [
       "Privileged location in quiet residential area",
@@ -86,12 +86,12 @@ export const villaKnowledgeBase = {
       "Golf course 10 minutes away"
     ],
     technical_specs: {
-      construction: "Reinforced concrete structure",
-      roof: "Accessible flat roof",
-      windows: "PVC windows with double glazing",
-      flooring: "Porcelain stoneware and parquet in bedrooms",
-      insulation: "Superior thermal and acoustic insulation",
-      utilities: "Certified plumbing and electrical installations"
+      construction: "High standing mansion renovated with high quality materials",
+      layout: "Distributed over three floors plus basement",
+      basement: "Garage for 3-4 cars, auxiliary apartment (living room, kitchen, bedroom, bathroom), storage",
+      ground_floor: "Large entrance hall, living-dining room, living room with fireplace, bedroom suite, toilet, independent kitchen, laundry room",
+      first_floor: "4 bedrooms: three double bedrooms (two suites), master bedroom with dressing room and full bathroom",
+      second_floor: "Open space: gym, cinema room, office, bathroom, terrace with unobstructed views"
     },
     legal_info: {
       license: "Valid first occupancy license",
@@ -105,25 +105,25 @@ export const villaKnowledgeBase = {
       price: "1.499.990 €",
       size: "805 m²",
       bedrooms: "6 habitacions",
-      bathrooms: "5 banys",
+      bathrooms: "7 banys",
       features: [
-        "Piscina privada amb zona de relax",
-        "Jardí mediterrani de 400m²",
-        "Aire condicionat central",
-        "Calefacció per terra radiant",
-        "Garatge per a 3 vehicles",
-        "Terrassa panoràmica de 150m²",
-        "Cuina americana completament equipada",
-        "Sistema de domòtica integrat",
-        "Alarma i videovigilància"
+        "Piscina privada al jardí",
+        "Zona de barbacoa",
+        "Sauna de fusta",
+        "Garatge per a 3-4 cotxes",
+        "Gimnàs i sala de cinema",
+        "Xemeneia a la sala d'estar",
+        "Cuina independent totalment equipada",
+        "Quarto de planxa i rentador",
+        "Terrassa amb vistes despejades"
       ],
-      location: "Jardins Vilafortuny, Cambrils",
-      beach_distance: "1,4 km a la platja (5 minuts amb cotxe, 20 minuts caminant)",
+      location: "Jardins de Vilafortuny, Cambrils",
+      beach_distance: "1.300 metres de les platges",
       portaventura: "15 minuts amb cotxe a PortAventura",
-      year_built: "2020",
-      energy_rating: "Certificació energètica A",
-      orientation: "Sud-Est (màxima lluminositat)",
-      plot_size: "1.200 m² de parcel·la"
+      year_built: "1993 (reformada amb materials d'alta qualitat)",
+      energy_rating: "Mansió d'alt standing",
+      orientation: "Excel·lent comunicació amb autovia i autopista",
+      plot_size: "791 m² de parcel·la"
     },
     advantages: [
       "Ubicació privilegiada en zona residencial tranquil·la",
@@ -136,12 +136,12 @@ export const villaKnowledgeBase = {
       "Camp de golf a 10 minuts"
     ],
     technical_specs: {
-      construction: "Estructura de formigó armat",
-      roof: "Coberta plana transitable",
-      windows: "Finestres de PVC amb doble vidre",
-      flooring: "Gres porcellànic i parquet en dormitoris",
-      insulation: "Aïllament tèrmic i acústic superior",
-      utilities: "Instal·lacions de fontaneria i electricitat certificades"
+      construction: "Mansió d'alt standing reformada amb materials d'alta qualitat",
+      layout: "Distribuïda en tres plantes més planta soterrani",
+      basement: "Garatge per a 3-4 cotxes, pis auxiliar (sala, cuina, dormitori, bany), magatzem",
+      ground_floor: "Ampli rebedor, saló menjador, sala d'estar amb xemeneia, dormitori suite, lavabo, cuina independent, quarto de planxa",
+      first_floor: "4 habitacions: tres dormitoris dobles (dos suite), dormitori principal amb vestidor i bany complet",
+      second_floor: "Espai diàfan: gimnàs, sala de cinema, despatx, bany, terrassa amb vistes despejades"
     },
     legal_info: {
       license: "Llicència de primera ocupació vigent",
@@ -155,25 +155,25 @@ export const villaKnowledgeBase = {
       price: "1.499.990 €",
       size: "805 м²",
       bedrooms: "6 спален",
-      bathrooms: "5 ванных комнат",
+      bathrooms: "7 ванных комнат",
       features: [
-        "Частный бассейн с зоной отдыха",
-        "Средиземноморский сад 400м²",
-        "Центральное кондиционирование",
-        "Теплый пол",
-        "Гараж на 3 автомобиля",
-        "Панорамная терраса 150м²",
-        "Полностью оборудованная кухня-студия",
-        "Интегрированная система умный дом",
-        "Сигнализация и видеонаблюдение"
+        "Частный бассейн в саду",
+        "Зона барбекю",
+        "Деревянная сауна",
+        "Гараж на 3-4 автомобиля",
+        "Спортзал и кинозал",
+        "Камин в гостиной",
+        "Отдельная полностью оборудованная кухня",
+        "Гладильная и прачечная",
+        "Терраса с открытыми видами"
       ],
-      location: "Жардинс Вилафортуни, Камбрилс",
-      beach_distance: "1,4 км до пляжа (5 минут на машине, 20 минут пешком)",
+      location: "Жардинс де Вилафортуни, Камбрилс",
+      beach_distance: "1.300 метров до пляжей",
       portaventura: "15 минут на машине до Порт-Авентуры",
-      year_built: "2020",
-      energy_rating: "Энергетический класс A",
-      orientation: "Юго-Восток (максимальная освещенность)",
-      plot_size: "Участок 1.200 м²"
+      year_built: "1993 (отремонтированная высококачественными материалами)",
+      energy_rating: "Особняк высокого класса",
+      orientation: "Отличное сообщение с автомагистралями",
+      plot_size: "Участок 791 м²"
     },
     advantages: [
       "Привилегированное расположение в тихом жилом районе",
@@ -186,12 +186,12 @@ export const villaKnowledgeBase = {
       "Поле для гольфа в 10 минутах"
     ],
     technical_specs: {
-      construction: "Железобетонная конструкция",
-      roof: "Плоская эксплуатируемая кровля",
-      windows: "ПВХ окна с двойным остеклением",
-      flooring: "Керамогранит и паркет в спальнях",
-      insulation: "Превосходная тепло- и звукоизоляция",
-      utilities: "Сертифицированные водопровод и электричество"
+      construction: "Особняк высокого класса, отремонтированный высококачественными материалами",
+      layout: "Распределен на трех этажах плюс цокольный этаж",
+      basement: "Гараж на 3-4 автомобиля, вспомогательная квартира (гостиная, кухня, спальня, ванная), кладовая",
+      ground_floor: "Просторная прихожая, гостиная-столовая, гостиная с камином, спальня-люкс, туалет, отдельная кухня, гладильная",
+      first_floor: "4 спальни: три двойные спальни (две люкс), главная спальня с гардеробной и полной ванной",
+      second_floor: "Открытое пространство: спортзал, кинозал, кабинет, ванная, терраса с открытыми видами"
     },
     legal_info: {
       license: "Действующая лицензия первого заселения",
@@ -219,7 +219,12 @@ export const responsePatterns = {
   legal: ['legal', 'documentos', 'papers', 'documents', 'документы', 'лицензия', 'papers'],
   taxes: ['impuestos', 'taxes', 'impostos', 'налоги', 'ibi', 'gastos'],
   technical: ['técnico', 'technical', 'tècnic', 'технический', 'construcción', 'materials'],
-  investment: ['inversión', 'investment', 'inversió', 'инвестиция', 'rentabilidad', 'negocio']
+  investment: ['inversión', 'investment', 'inversió', 'инвестиция', 'rentabilidad', 'negocio'],
+  features: ['características', 'features', 'prestaciones', 'функции', 'что есть', 'что включено', 'amenities', 'facilities'],
+  layout: ['distribución', 'layout', 'distribució', 'планировка', 'plantas', 'floors', 'plantes', 'этажи', 'como distribuida'],
+  sauna: ['sauna', 'сауна'],
+  cinema: ['cine', 'cinema', 'кино', 'sala de cine', 'кинозал'],
+  gym: ['gimnasio', 'gym', 'gimnàs', 'спортзал', 'fitness']
 };
 
 // Context-aware response generator
@@ -263,6 +268,10 @@ function generateSpanishResponse(patterns, knowledge, message) {
     return `🛏️ La propiedad cuenta con **${knowledge.property.bedrooms}** amplios y luminosos, cada uno con acceso a terraza o balcón. Todas las habitaciones tienen suelo de parquet y ventanas de PVC con doble acristalamiento para máximo confort.`;
   }
   
+  if (patternTypes.includes('bathrooms')) {
+    return `🚿 La villa dispone de **${knowledge.property.bathrooms}** completamente equipados con acabados de alta calidad y sanitarios de última generación.`;
+  }
+  
   if (patternTypes.includes('location') || patternTypes.includes('beach')) {
     return `🏖️ Ubicada en **${knowledge.property.location}**, una zona premium de la Costa Dorada. **${knowledge.property.beach_distance}** y ${knowledge.property.portaventura}. La zona cuenta con excelente conectividad a Barcelona y Tarragona.`;
   }
@@ -271,12 +280,32 @@ function generateSpanishResponse(patterns, knowledge, message) {
     return `🏊‍♂️ Sí, incluye una **piscina privada** con zona de relax en un precioso **jardín mediterráneo de 400m²**. El jardín está diseñado con plantas autóctonas que requieren poco mantenimiento y proporcionan privacidad total.`;
   }
   
+  if (patternTypes.includes('portaventura')) {
+    return `🎢 ¡Perfecto para familias! **${knowledge.property.portaventura}**, uno de los parques temáticos más famosos de Europa. ¡Los niños lo van a adorar!`;
+  }
+  
+  if (patternTypes.includes('parking')) {
+    return `🚗 Sí, cuenta con **garaje para 3 vehículos** con puertas automáticas. También hay plazas de aparcamiento adicionales en la parcela.`;
+  }
+  
+  if (patternTypes.includes('year')) {
+    return `🏗️ La villa fue construida en **${knowledge.property.year_built}** con tecnologías y materiales de última generación. ¡Construcción nueva con garantía de calidad!`;
+  }
+  
+  if (patternTypes.includes('energy')) {
+    return `⚡ ¡Excelente noticia! La villa tiene **${knowledge.property.energy_rating}**, lo que significa gastos mínimos en servicios y máximo confort durante todo el año.`;
+  }
+  
   if (patternTypes.includes('technical')) {
     return `🔧 **Especificaciones técnicas:** ${knowledge.technical_specs.construction}, ${knowledge.technical_specs.roof}, ${knowledge.technical_specs.windows}. Cuenta con ${knowledge.technical_specs.insulation} y ${knowledge.technical_specs.utilities}.`;
   }
   
   if (patternTypes.includes('legal') || patternTypes.includes('taxes')) {
     return `📋 **Información legal:** ${knowledge.legal_info.license}. ${knowledge.legal_info.taxes}, ${knowledge.legal_info.community}. ${knowledge.legal_info.documentation}.`;
+  }
+  
+  if (patternTypes.includes('investment')) {
+    return `📈 ¡Excelente inversión! Cambrils es una ciudad turística en crecimiento con alto potencial de revalorización. La rentabilidad por alquiler puede ser del 4-6% anual.`;
   }
   
   return getFallbackResponse('es');
@@ -297,12 +326,44 @@ function generateEnglishResponse(patterns, knowledge, message) {
     return `🛏️ The property features **${knowledge.property.bedrooms}** spacious and bright rooms, each with access to terrace or balcony. All bedrooms have parquet flooring and PVC windows with double glazing for maximum comfort.`;
   }
   
+  if (patternTypes.includes('bathrooms')) {
+    return `🚿 The villa has **${knowledge.property.bathrooms}** fully equipped with high-quality finishes and state-of-the-art fixtures.`;
+  }
+  
   if (patternTypes.includes('location') || patternTypes.includes('beach')) {
     return `🏖️ Located in **${knowledge.property.location}**, a premium area of Costa Dorada. **${knowledge.property.beach_distance}** and ${knowledge.property.portaventura}. The area has excellent connectivity to Barcelona and Tarragona.`;
   }
   
   if (patternTypes.includes('pool') || patternTypes.includes('garden')) {
     return `🏊‍♂️ Yes, it includes a **private pool** with relaxation area in a beautiful **400m² Mediterranean garden**. The garden is designed with native plants requiring little maintenance and providing total privacy.`;
+  }
+  
+  if (patternTypes.includes('portaventura')) {
+    return `🎢 Perfect for families! **${knowledge.property.portaventura}**, one of Europe's most famous theme parks. The kids will absolutely love it!`;
+  }
+  
+  if (patternTypes.includes('parking')) {
+    return `🚗 Yes, it has a **3-car garage** with automatic doors. There are also additional parking spaces on the plot.`;
+  }
+  
+  if (patternTypes.includes('year')) {
+    return `🏗️ The villa was built in **${knowledge.property.year_built}** using cutting-edge technologies and materials. New construction with quality guarantee!`;
+  }
+  
+  if (patternTypes.includes('energy')) {
+    return `⚡ Excellent news! The villa has **${knowledge.property.energy_rating}**, meaning minimal utility costs and maximum comfort year-round.`;
+  }
+  
+  if (patternTypes.includes('technical')) {
+    return `🔧 **Technical specifications:** ${knowledge.technical_specs.construction}, ${knowledge.technical_specs.roof}, ${knowledge.technical_specs.windows}. Features ${knowledge.technical_specs.insulation} and ${knowledge.technical_specs.utilities}.`;
+  }
+  
+  if (patternTypes.includes('legal') || patternTypes.includes('taxes')) {
+    return `📋 **Legal information:** ${knowledge.legal_info.license}. ${knowledge.legal_info.taxes}, ${knowledge.legal_info.community}. ${knowledge.legal_info.documentation}.`;
+  }
+  
+  if (patternTypes.includes('investment')) {
+    return `📈 Excellent investment! Cambrils is a growing tourist city with high potential for property value appreciation. Rental yield can be 4-6% annually.`;
   }
   
   return getFallbackResponse('en');
@@ -329,8 +390,73 @@ function generateRussianResponse(patterns, knowledge, message) {
     return `💰 Цена этой эксклюзивной виллы составляет **${knowledge.property.price}**. Включает ${knowledge.property.size} застроенной площади на участке ${knowledge.property.plot_size}. Недвижимость построена в ${knowledge.property.year_built} году с ${knowledge.property.energy_rating}.`;
   }
   
+  if (patternTypes.includes('size')) {
+    return `📐 Вилла имеет **${knowledge.property.size}** застроенной площади на участке **${knowledge.property.plot_size}**. Идеально распределена с ${knowledge.property.bedrooms} и ${knowledge.property.bathrooms}, плюс просторные общие зоны и панорамная терраса 150м².`;
+  }
+  
+  if (patternTypes.includes('bedrooms')) {
+    return `🛏️ В вилле **${knowledge.property.bedrooms}** просторных и светлых, каждая с выходом на террасу или балкон. Во всех спальнях паркетные полы и ПВХ окна с двойным остеклением для максимального комфорта.`;
+  }
+  
+  if (patternTypes.includes('bathrooms')) {
+    return `🚿 В собственности **${knowledge.property.bathrooms}** полностью оборудованных высококачественной отделкой и современной сантехникой.`;
+  }
+  
   if (patternTypes.includes('location') || patternTypes.includes('beach')) {
     return `🏖️ Расположена в **${knowledge.property.location}**, премиальном районе Коста-Дорада. **${knowledge.property.beach_distance}** и ${knowledge.property.portaventura}. В районе отличное сообщение с Барселоной и Таррагоной.`;
+  }
+  
+  if (patternTypes.includes('pool') || patternTypes.includes('garden')) {
+    return `🏊‍♂️ Да, включает **частный бассейн** с зоной отдыха в красивом **средиземноморском саду 400м²**. Сад спроектирован с местными растениями, требующими минимального ухода и обеспечивающими полную приватность.`;
+  }
+  
+  if (patternTypes.includes('portaventura')) {
+    return `🎢 Идеально для семей! **${knowledge.property.portaventura}**, один из самых известных тематических парков Европы. Дети будут в восторге!`;
+  }
+  
+  if (patternTypes.includes('parking')) {
+    return `🚗 Да, есть **гараж на 3 автомобиля** с автоматическими воротами. Также дополнительные парковочные места на участке.`;
+  }
+  
+  if (patternTypes.includes('year')) {
+    return `🏗️ Вилла построена в **${knowledge.property.year_built} году** с использованием современных технологий и материалов. Новое строительство с гарантией качества!`;
+  }
+  
+  if (patternTypes.includes('energy')) {
+    return `⚡ Отличная новость! Вилла имеет **${knowledge.property.energy_rating}**, что означает минимальные расходы на коммунальные услуги и максимальный комфорт круглый год.`;
+  }
+  
+  if (patternTypes.includes('technical')) {
+    return `🔧 **Технические характеристики:** ${knowledge.technical_specs.construction}, ${knowledge.technical_specs.roof}, ${knowledge.technical_specs.windows}. ${knowledge.technical_specs.insulation} и ${knowledge.technical_specs.utilities}.`;
+  }
+  
+  if (patternTypes.includes('legal') || patternTypes.includes('taxes')) {
+    return `📋 **Юридическая информация:** ${knowledge.legal_info.license}. ${knowledge.legal_info.taxes}, ${knowledge.legal_info.community}. ${knowledge.legal_info.documentation}.`;
+  }
+  
+  if (patternTypes.includes('investment')) {
+    return `📈 Отличная инвестиция! Камбрилс - растущий курортный город с высоким потенциалом роста стоимости недвижимости. Доходность от аренды может составлять 4-6% в год.`;
+  }
+  
+  if (patternTypes.includes('features')) {
+    const features = knowledge.property.features.slice(0, 6).join(', ');
+    return `✨ **Основные характеристики:** ${features}. Эта вилла сочетает роскошь, комфорт и технологии в привилегированном месте Коста-Дорада.`;
+  }
+  
+  if (patternTypes.includes('layout')) {
+    return `🏗️ **Планировка особняка:** ${knowledge.technical_specs.layout}.\n\n**Цокольный этаж:** ${knowledge.technical_specs.basement}\n**Первый этаж:** ${knowledge.technical_specs.ground_floor}\n**Второй этаж:** ${knowledge.technical_specs.first_floor}\n**Третий этаж:** ${knowledge.technical_specs.second_floor}`;
+  }
+  
+  if (patternTypes.includes('sauna')) {
+    return `🧖‍♀️ Да! В особняке есть **деревянная сауна** - идеальное место для релаксации после долгого дня. Расположена в садовой зоне рядом с бассейном.`;
+  }
+  
+  if (patternTypes.includes('cinema')) {
+    return `🎬 Великолепно! На третьем этаже расположен **кинозал** в открытом пространстве. Идеально для семейных вечеров и просмотра фильмов в домашней атмосфере.`;
+  }
+  
+  if (patternTypes.includes('gym')) {
+    return `🏋️‍♂️ Отлично! На третьем этаже находится **спортзал** в открытом пространстве. Поддерживайте форму не выходя из дома!`;
   }
   
   return getFallbackResponse('ru');
