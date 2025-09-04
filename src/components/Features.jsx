@@ -4,8 +4,10 @@ const Features = ({ translations }) => {
   const features = [
     {
       icon: (
+        // Area (square meters) – outward arrows inside a square
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2V7a2 2 0 012-2h14a2 2 0 012 2v2" />
+          <rect x="3" y="3" width="18" height="18" rx="2" ry="2" strokeWidth="2"/>
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M8 8l3 3M8 8V5m0 3H5M16 16l-3-3M16 16v3m0-3h3M8 16l3-3M8 16H5m3 0v3M16 8l-3 3M16 8h3m-3 0V5"/>
         </svg>
       ),
       title: translations.features.area,
@@ -13,8 +15,11 @@ const Features = ({ translations }) => {
     },
     {
       icon: (
+        // Bedrooms – bed icon
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2V7a2 2 0 012-2h14a2 2 0 012 2v2" />
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M4 12V6a2 2 0 012-2h4a2 2 0 012 2v6"/>
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M4 12h16a2 2 0 012 2v4H2v-4a2 2 0 012-2z"/>
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M9 8h1.5M7 8h.5"/>
         </svg>
       ),
       title: translations.features.bedrooms,
@@ -22,8 +27,11 @@ const Features = ({ translations }) => {
     },
     {
       icon: (
+        // Bathrooms – bathtub icon
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10v11M20 10v11" />
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M5 10V7a3 3 0 016 0v3"/>
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M3 13h18v2a3 3 0 01-3 3H6a3 3 0 01-3-3v-2z"/>
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M7 18v2M17 18v2"/>
         </svg>
       ),
       title: translations.features.bathrooms,
@@ -31,8 +39,10 @@ const Features = ({ translations }) => {
     },
     {
       icon: (
+        // Pool – waves
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M3 16c1.5 0 2.5 1 4 1s2.5-1 4-1 2.5 1 4 1 2.5-1 4-1"/>
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M3 12c1.5 0 2.5 1 4 1s2.5-1 4-1 2.5 1 4 1 2.5-1 4-1"/>
         </svg>
       ),
       title: translations.features.pool,
@@ -40,8 +50,9 @@ const Features = ({ translations }) => {
     },
     {
       icon: (
+        // Garden – leaf
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M5 12c0-5 4-8 9-8 0 5-4 9-9 9 0 3 2 5 5 5 5 0 9-4 9-9"/>
         </svg>
       ),
       title: translations.features.garden,
@@ -49,9 +60,11 @@ const Features = ({ translations }) => {
     },
     {
       icon: (
+        // Garage – car front inside a gate
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM21 17a2 2 0 11-4 0 2 2 0 014 0z" />
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17h4m0 0V5a2 2 0 012-2h6a2 2 0 012 2v12h-4" />
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M3 7l9-4 9 4v10a2 2 0 01-2 2h-1"/>
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M7 18a2 2 0 104 0 2 2 0 00-4 0zm10 0a2 2 0 104 0 2 2 0 00-4 0z"/>
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M6 16h12l-1.5-5h-9L6 16z"/>
         </svg>
       ),
       title: translations.features.garage,
@@ -59,8 +72,11 @@ const Features = ({ translations }) => {
     },
     {
       icon: (
+        // Cinema & Gym – film + play
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2M7 4v16M17 4v16m0-16H7" />
+          <rect x="3" y="5" width="18" height="14" rx="2" ry="2" strokeWidth="2"/>
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M7 5v14M17 5v14"/>
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M11 10l4 3-4 3v-6z"/>
         </svg>
       ),
       title: translations.features.cinema,
@@ -68,8 +84,10 @@ const Features = ({ translations }) => {
     },
     {
       icon: (
+        // Fireplace – flame
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707" />
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M12 3s-3 3-3 6a3 3 0 006 0c0-3-3-6-3-6z"/>
+          <path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M12 13a4 4 0 00-4 4h8a4 4 0 00-4-4z"/>
         </svg>
       ),
       title: translations.features.fireplace,
