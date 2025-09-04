@@ -11,6 +11,23 @@ const Hero = ({ translations, onScheduleVisit, currentLang }) => {
     return () => clearTimeout(timer);
   }, []);
 
+  // Choose best source once on mount to improve mobile autoplay reliability (Safari/iOS)
+  const [videoSrc, setVideoSrc] = useState('https://res.cloudinary.com/denhjv30b/video/upload/f_auto,vc_auto,q_auto:best,w_1920/v1756554614/villa-video_yqhyrh.mp4');
+  useEffect(() => {
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const mobileSrc = 'https://res.cloudinary.com/denhjv30b/video/upload/f_auto,vc_auto,q_auto:good,w_1280/v1756554614/villa-video_yqhyrh.mp4';
+    const desktopSrc = 'https://res.cloudinary.com/denhjv30b/video/upload/f_auto,vc_auto,q_auto:best,w_1920/v1756554614/villa-video_yqhyrh.mp4';
+    const nextSrc = isMobile ? mobileSrc : desktopSrc;
+    if (nextSrc !== videoSrc) {
+      setVideoSrc(nextSrc);
+      // Force reload when source changes
+      const el = document.querySelector('video');
+      if (el) {
+        el.load();
+      }
+    }
+  }, []);
+
   const handleVideoLoad = (e) => {
     console.log('handleVideoLoad called, setting videoLoaded to true');
     setVideoLoaded(true);
@@ -67,18 +84,7 @@ const Hero = ({ translations, onScheduleVisit, currentLang }) => {
         onError={handleVideoError}
         onPlay={handleVideoPlay}
       >
-        {/* Mobile-optimized source (higher quality than default mobile downscale) */}
-        <source 
-          media="(max-width: 768px)" 
-          src="https://res.cloudinary.com/denhjv30b/video/upload/f_auto,vc_auto,q_auto:good,w_1280/v1756554614/villa-video_yqhyrh.mp4" 
-          type="video/mp4" 
-        />
-        {/* Desktop/high-res source */}
-        <source 
-          media="(min-width: 769px)" 
-          src="https://res.cloudinary.com/denhjv30b/video/upload/f_auto,vc_auto,q_auto:best,w_1920/v1756554614/villa-video_yqhyrh.mp4" 
-          type="video/mp4" 
-        />
+        <source src={videoSrc} type="video/mp4" />
       </video>
       
       {/* Fallback background image if video fails - temporarily disabled */}

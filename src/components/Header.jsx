@@ -32,11 +32,11 @@ const Header = ({ translations, currentLang, onLanguageChange }) => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-white shadow-lg' : 'bg-transparent'
     }`}>
-      <nav className="max-w-7xl mx-auto px-4 py-3">
+      <nav className="w-full px-0 py-3">
         <div className="flex items-center justify-between">
                           {/* Logo */}
                 <div className="flex items-center">
-                  <div className="h-12 w-auto flex items-center">
+                  <div className="h-12 w-auto flex items-center pl-0 -ml-2 sm:-ml-3">
                     <img 
                       src="https://i.ibb.co/1Gy6wzkq/LARISA-L-logo-final-01.png" 
                       alt="Larisa L Logo" 
