@@ -13,9 +13,9 @@ import ChatBot from './components/ChatBot';
 
 // Agent contact information - replace with real contact data
 const agentContact = {
-  phone: "34123456789", // Replace with real phone
-  telegram: "villaagent", // Replace with real telegram handle  
-  email: "agent@villa-cambrils.com" // Replace with real email
+  phone: "34677743005",
+  telegram: "Larisa_real_estate_agent",
+  email: "info@inmolarisa.com"
 };
 
 function App() {
@@ -149,6 +149,7 @@ function App() {
       
       <FloatingCTAs 
         translations={translations}
+        currentLang={currentLang}
         agentContact={agentContact}
       />
       
