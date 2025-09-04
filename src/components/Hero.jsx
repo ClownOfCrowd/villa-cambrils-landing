@@ -72,7 +72,7 @@ const Hero = ({ translations, onScheduleVisit, currentLang }) => {
     <section className="relative h-screen w-full overflow-hidden">
       {/* Video Background */}
       <video
-        className="absolute inset-0 w-full h-full object-cover z-10"
+        className="absolute inset-0 w-full h-full object-cover z-0"
         autoPlay
         muted
         loop
@@ -114,13 +114,13 @@ const Hero = ({ translations, onScheduleVisit, currentLang }) => {
       </div> */}
       
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-40 z-5" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/50 via-black/40 to-black/30" />
       
       {/* Play button if autoplay blocked */}
       {videoLoaded && !videoPlaying && (
         <button
           onClick={manualPlayVideo}
-          className="absolute top-4 right-4 z-20 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 px-4 rounded-lg transition-colors flex items-center space-x-2"
+          className="absolute top-4 right-4 z-30 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 px-4 rounded-lg transition-colors flex items-center space-x-2"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
@@ -130,7 +130,7 @@ const Hero = ({ translations, onScheduleVisit, currentLang }) => {
       )}
 
       {/* Content */}
-      <div className="relative z-10 flex items-center justify-center h-full px-4">
+      <div className="relative z-20 flex items-center justify-center h-full px-4">
         <div className={`text-center text-yellow-100 max-w-4xl mx-auto ${currentLang === 'ru' ? 'mt-28' : 'mt-16'}`}>
           <h1 
             className={`font-['Playfair_Display'] tracking-wide text-4xl md:text-6xl lg:text-7xl font-semibold mb-8 text-yellow-100 transition-all duration-1000 drop-shadow-lg ${
