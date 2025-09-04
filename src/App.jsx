@@ -130,6 +130,7 @@ function App() {
       <main>
         <Hero 
           translations={translations}
+          currentLang={currentLang}
           onScheduleVisit={handleScheduleVisit}
         />
         
