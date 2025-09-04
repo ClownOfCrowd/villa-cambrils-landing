@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const Hero = ({ translations, onScheduleVisit }) => {
+const Hero = ({ translations, onScheduleVisit, currentLang }) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [videoError, setVideoError] = useState(false);
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -67,7 +67,18 @@ const Hero = ({ translations, onScheduleVisit }) => {
         onError={handleVideoError}
         onPlay={handleVideoPlay}
       >
-        <source src="https://res.cloudinary.com/denhjv30b/video/upload/v1756554614/villa-video_yqhyrh.mp4" type="video/mp4" />
+        {/* Mobile-optimized source (higher quality than default mobile downscale) */}
+        <source 
+          media="(max-width: 768px)" 
+          src="https://res.cloudinary.com/denhjv30b/video/upload/f_auto,vc_auto,q_auto:good,w_1280/v1756554614/villa-video_yqhyrh.mp4" 
+          type="video/mp4" 
+        />
+        {/* Desktop/high-res source */}
+        <source 
+          media="(min-width: 769px)" 
+          src="https://res.cloudinary.com/denhjv30b/video/upload/f_auto,vc_auto,q_auto:best,w_1920/v1756554614/villa-video_yqhyrh.mp4" 
+          type="video/mp4" 
+        />
       </video>
       
       {/* Fallback background image if video fails - temporarily disabled */}
@@ -114,7 +125,7 @@ const Hero = ({ translations, onScheduleVisit }) => {
 
       {/* Content */}
       <div className="relative z-10 flex items-center justify-center h-full px-4">
-        <div className="text-center text-yellow-100 max-w-4xl mx-auto mt-16">
+        <div className={`text-center text-yellow-100 max-w-4xl mx-auto ${currentLang === 'ru' ? 'mt-28' : 'mt-16'}`}>
           <h1 
             className={`text-4xl md:text-6xl lg:text-7xl font-bold mb-8 text-yellow-100 transition-all duration-1000 drop-shadow-lg ${
               isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
