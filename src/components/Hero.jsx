@@ -133,7 +133,7 @@ const Hero = ({ translations, onScheduleVisit, currentLang }) => {
       <div className="relative z-10 flex items-center justify-center h-full px-4">
         <div className={`text-center text-yellow-100 max-w-4xl mx-auto ${currentLang === 'ru' ? 'mt-28' : 'mt-16'}`}>
           <h1 
-            className={`text-4xl md:text-6xl lg:text-7xl font-bold mb-8 text-yellow-100 transition-all duration-1000 drop-shadow-lg ${
+            className={`font-['Playfair_Display'] tracking-wide text-4xl md:text-6xl lg:text-7xl font-semibold mb-8 text-yellow-100 transition-all duration-1000 drop-shadow-lg ${
               isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
@@ -153,7 +153,7 @@ const Hero = ({ translations, onScheduleVisit, currentLang }) => {
               isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
-            <span className="text-yellow-400 font-bold text-3xl md:text-4xl lg:text-5xl bg-black bg-opacity-30 px-4 py-2 rounded-lg border-2 border-yellow-400 drop-shadow-xl">
+            <span className="text-amber-300 font-semibold text-3xl md:text-4xl lg:text-5xl bg-black/30 px-5 py-2 rounded-lg border border-amber-300/80 drop-shadow-xl shadow-[0_0_24px_rgba(251,191,36,0.35)]">
               1.499.990 €
             </span>
           </div>

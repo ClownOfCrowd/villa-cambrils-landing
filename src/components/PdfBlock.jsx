@@ -26,7 +26,7 @@ const PdfBlock = ({ translations }) => {
     <section className="py-16 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+          <h2 className="font-['Playfair_Display'] tracking-wide text-3xl md:text-4xl font-semibold mb-4 text-gray-900">
             {translations.pdf.title}
           </h2>
           <p className="text-lg text-gray-600">
@@ -53,7 +53,7 @@ const PdfBlock = ({ translations }) => {
                   <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-2">{translations.pdf.villa_title}</h3>
+              <h3 className="font-['Playfair_Display'] text-2xl font-semibold text-gray-800 mb-2">{translations.pdf.villa_title}</h3>
               <p className="text-gray-600 mb-4">{translations.pdf.tech_sheet}</p>
               <div className="flex items-center justify-center space-x-4 text-sm text-gray-500">
                 <span className="flex items-center">

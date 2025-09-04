@@ -81,7 +81,7 @@ const Features = ({ translations }) => {
     <section id="details" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+          <h2 className="font-['Playfair_Display'] tracking-wide text-3xl md:text-4xl font-semibold mb-4 text-gray-900">
             {translations.features.title}
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
@@ -95,10 +95,10 @@ const Features = ({ translations }) => {
               key={index} 
               className="group bg-gray-50 hover:bg-yellow-50 rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
             >
-              <div className="w-16 h-16 bg-yellow-500 group-hover:bg-yellow-600 rounded-lg flex items-center justify-center mb-4 text-black transition-colors">
+              <div className="w-16 h-16 bg-amber-300 group-hover:bg-amber-400 rounded-lg flex items-center justify-center mb-4 text-black transition-colors shadow-md">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 {feature.title}
               </h3>
               <p className="text-gray-600">
