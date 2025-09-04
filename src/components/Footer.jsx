@@ -10,7 +10,7 @@ const Footer = ({ translations }) => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
-              <div className="h-16 w-auto flex items-center pl-0 -ml-4 sm:-ml-6 md:-ml-8">
+              <div className="h-16 w-auto flex items-center pl-0 -ml-6 sm:-ml-8 md:-ml-10">
                 <img 
                   src="https://i.ibb.co/1Gy6wzkq/LARISA-L-logo-final-01.png" 
                   alt="Larisa L Logo" 
