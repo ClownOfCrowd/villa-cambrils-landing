@@ -36,7 +36,7 @@ const Header = ({ translations, currentLang, onLanguageChange }) => {
         <div className="flex items-center justify-between">
                           {/* Logo */}
                 <div className="flex items-center">
-                  <div className="h-12 w-auto flex items-center pl-0 -ml-2 sm:-ml-3">
+                  <div className="h-12 w-auto flex items-center pl-0 -ml-4 sm:-ml-3">
                     <img 
                       src="https://i.ibb.co/1Gy6wzkq/LARISA-L-logo-final-01.png" 
                       alt="Larisa L Logo" 

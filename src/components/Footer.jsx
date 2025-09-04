@@ -14,7 +14,7 @@ const Footer = ({ translations }) => {
                 <img 
                   src="https://i.ibb.co/1Gy6wzkq/LARISA-L-logo-final-01.png" 
                   alt="Larisa L Logo" 
-                  className="h-28 w-auto object-contain"
+                  className="h-32 sm:h-36 md:h-40 w-auto object-contain"
                 />
               </div>
             </div>
